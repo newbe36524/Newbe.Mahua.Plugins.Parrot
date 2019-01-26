@@ -1,0 +1,22 @@
+{
+  "projectName": "Newbe.Mahua.Framework",
+  "projectOwner": "newbe36524",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [{
+      "login": "newbe36524",
+      "name": "Newbe36524",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/7685462?v=4",
+      "profile": "http://www.newbe.pro",
+      "contributions": [
+        "doc",
+        "code"
+      ]
+    }
+  ]
+}
