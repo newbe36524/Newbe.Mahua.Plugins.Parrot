@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net461</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\MahuaClient\src\Newbe.Mahua.HttpApiClient\Newbe.Mahua.HttpApiClient.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Nancy.Hosting.Self" Version="1.4.1" />
+    </ItemGroup>
+
+</Project>
