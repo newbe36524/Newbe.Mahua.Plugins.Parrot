@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Newbe.Mahua.Plugins.Parrot", "Newbe.Mahua.Plugins.Parrot\Newbe.Mahua.Plugins.Parrot.csproj", "{43CC0CD0-FE3C-4293-BB12-2D9C170DAC2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Newbe.Mahua.HttpApiClient", "MahuaClient\src\Newbe.Mahua.HttpApiClient\Newbe.Mahua.HttpApiClient.csproj", "{6601A166-5E45-4CA0-AFAA-91BAEFBB06AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43CC0CD0-FE3C-4293-BB12-2D9C170DAC2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43CC0CD0-FE3C-4293-BB12-2D9C170DAC2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43CC0CD0-FE3C-4293-BB12-2D9C170DAC2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43CC0CD0-FE3C-4293-BB12-2D9C170DAC2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6601A166-5E45-4CA0-AFAA-91BAEFBB06AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6601A166-5E45-4CA0-AFAA-91BAEFBB06AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6601A166-5E45-4CA0-AFAA-91BAEFBB06AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6601A166-5E45-4CA0-AFAA-91BAEFBB06AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {34ED8967-24FC-4705-A265-525386B07653}
+	EndGlobalSection
+EndGlobal
