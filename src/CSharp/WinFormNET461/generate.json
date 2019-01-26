@@ -1,0 +1,5 @@
+{
+    "packageName": "Newbe.Mahua.HttpApiClient",
+    "targetFramework": "v4.5",
+    "allowUnicodeIdentifiers": true
+}
