@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Newbe.Mahua.Plugins.Parrot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        var socket = new WebSocket("ws://localhost:36528/ws");
+
+        function writeMsg(msg) {
+            $("#content").prepend($("<p>").text(msg));
+        }
+        socket.onopen = function () {
+            writeMsg("websocket opened, please send message to you qq robot for testing");
+        }
+        socket.onclose = function () {
+            writeMsg("websocket closed, please refresh page");
+        }
+
+        socket.onmessage = function (message) {
+            writeMsg("get message : " + message.data);
+            var data = JSON.parse(message.data);
+            // 收到的消息是私聊消息
+            if (data.TypeCode === 'ProcessPrivateMessage' &&
+                data.SubType === 11) {
+
+                var postData = {
+                    "TypeCode": "CQ_sendPrivateMsg",
+                    "MahuaPlatform": data.Platform,
+                    "Data": {
+                        "QQID": data.FromQQ,
+                        "msg": data.Msg
+                    }
+                };
+                // 回复私聊消息
+                var sendMessage = JSON.stringify(postData);
+                socket.send(sendMessage);
+                writeMsg("send message : " + sendMessage);
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Newbe.Mahua.Plugins.Parrot</h1>
+    <div id="content">
+
+    </div>
+</body>
+
+</html>
