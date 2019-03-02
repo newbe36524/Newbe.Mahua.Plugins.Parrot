@@ -1,0 +1,19 @@
+{
+  "name": "newbe.mahua.plugins.parrot",
+  "version": "1.0.0",
+  "description": "demo for Newbe.Mahua 2.X",
+  "main": "index.js",
+  "scripts": {
+    "server": "ts-node index.ts"
+  },
+  "author": "newbe36524",
+  "license": "https://github.com/newbe36524/Newbe.Mahua.Plugins.Parrot/blob/master/LICENSE",
+  "dependencies": {
+    "@types/express": "^4.16.1",
+    "@types/node": "^11.9.4",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "ts-node": "^8.0.2",
+    "typescript": "^3.3.3"
+  }
+}
