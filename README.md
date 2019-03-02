@@ -23,21 +23,25 @@ SDK提供多种可用的跨进程通信方案，开发者可以从中灵活选�
 
 本仓库中包含了各种编程语言和对接方式对“嘤鹉学舌”这个插件的实现。这些示例基于 [Newbe.Mahua 2.X](https://github.com/newbe36524/Newbe.Mahua.Framework) 提供的相关接口。以下便是本仓库中的示例情况。
 
-| 编程语言   | 调用方式 | 回调方式 | 作者       | 链接                                                                                                   | 备注                      |
-| ---------- | -------- | -------- | ---------- | ------------------------------------------------------------------------------------------------------ | ------------------------- |
-| C#         | HTTP     | HTTP     | newbe36524 | [点击跳转](https://github.com/newbe36524/Newbe.Mahua.Plugins.Parrot/src/CSharp/WebFormNET35)           | WebForm Framework 3.5     |
-| C#         | HTTP     | HTTP     | newbe36524 | [点击跳转](https://github.com/newbe36524/Newbe.Mahua.Plugins.Parrot/src/CSharp/WinFormNET461)          | WinForm Framework 4.6.1   |
-| C#         | HTTP     | HTTP     | newbe36524 | [点击跳转](https://github.com/newbe36524/Newbe.Mahua.Plugins.Parrot/src/CSharp/ConsoleNET461)          | Console Framework 4.6.1   |
-| C#         | HTTP     | HTTP     | newbe36524 | [点击跳转](https://github.com/newbe36524/Newbe.Mahua.Plugins.Parrot/src/CSharp/AspnetCoreNetCoreApp22) | Aspnetcore netcoreapp 2.2 |
-| Java       | HTTP     | HTTP     | 待补充     |                                                                                                        |                           |
-| Typescript | HTTP     | HTTP     | 待补充     |                                                                                                        |                           |
-| C++        | HTTP     | HTTP     | 待补充     |                                                                                                        |                           |
-| Python     | HTTP     | HTTP     | 待补充     |                                                                                                        |                           |
-| PHP        | HTTP     | HTTP     | 待补充     |                                                                                                        |                           |
+| 编程语言   | 调用方式  | 回调方式  | 作者       | 链接                                                                                                        | 备注                          |
+| ---------- | --------- | --------- | ---------- | ----------------------------------------------------------------------------------------------------------- | ----------------------------- |
+| C#         | HTTP      | HTTP      | newbe36524 | [点击跳转](https://github.com/newbe36524/Newbe.Mahua.Plugins.Parrot/src/CSharp/Http/WebFormNET35)           | WebForm Framework 3.5         |
+| C#         | HTTP      | HTTP      | newbe36524 | [点击跳转](https://github.com/newbe36524/Newbe.Mahua.Plugins.Parrot/src/CSharp/Http/WinFormNET461)          | WinForm Framework 4.6.1       |
+| C#         | HTTP      | HTTP      | newbe36524 | [点击跳转](https://github.com/newbe36524/Newbe.Mahua.Plugins.Parrot/src/CSharp/Http/ConsoleNET461)          | Console Framework 4.6.1       |
+| C#         | HTTP      | HTTP      | newbe36524 | [点击跳转](https://github.com/newbe36524/Newbe.Mahua.Plugins.Parrot/src/CSharp/Http/AspnetCoreNetCoreApp22) | Aspnetcore netcoreapp 2.2     |
+| Typescript | HTTP      | HTTP      | newbe36524 | [点击跳转](https://github.com/newbe36524/Newbe.Mahua.Plugins.Parrot/src/Typescipt/Http/NodeExpress)         | node express                  |
+| Javascript | HTTP      | HTTP      | newbe36524 | [点击跳转](https://github.com/newbe36524/Newbe.Mahua.Plugins.Parrot/src/Javascript/Http/NodeExpress)        | node express                  |
+| Java       | HTTP      | HTTP      | 待补充     |                                                                                                             |                               |
+| C++        | HTTP      | HTTP      | 待补充     |                                                                                                             |                               |
+| Python     | HTTP      | HTTP      | 待补充     |                                                                                                             |                               |
+| PHP        | HTTP      | HTTP      | 待补充     |                                                                                                             |                               |
+| Javascript | Websocket | Websocket | newbe36524 | [点击跳转](https://github.com/newbe36524/Newbe.Mahua.Plugins.Parrot/src/Javascript/Websocket/Broswer)       | browser 客户端连接Newbe.Mahua |
 
 调用：是指开发者的进程调用 Newbe.Mahua 的接口。
 
 回调：是指 Newbe.Mahua 调用 开发者的进程的接口。
+
+每个项目下都有`README.md`，里面记录了关于项目如何使用的相关内容，希望读者参阅。
 
 ## Contributors
 
