@@ -1,0 +1,15 @@
+{
+  "name": "newbe.mahua.plugins.parrot",
+  "version": "1.0.0",
+  "description": "demo for Newbe.Mahua 2.X",
+  "main": "index.js",
+  "scripts": {
+    "server": "node index.js"
+  },
+  "author": "newbe36524",
+  "license": "https://github.com/newbe36524/Newbe.Mahua.Plugins.Parrot/blob/master/LICENSE",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
+}
